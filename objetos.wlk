@@ -9,7 +9,7 @@ object tito{
     animo = "cansado
   }
 
-  methos despedir(){
+  method despedir(){
     ocupado = false
   }
 
