@@ -35,7 +35,7 @@ object dani{
 }
 
 object ricardo{
-  var salud = 100
+  var estaSano = true
   var pareja = tito
 
   method Pareja(nombre){
@@ -43,18 +43,17 @@ object ricardo{
   }
 
   method contagiarse(persona){
-    if persona.enferma() == true
-      salud = 9
+    estaSano = persona(enferma)
   }
 
-    mehod enferma() = not pareja.ocupado() or salud < 10
+    mehod enferma() = not pareja.ocupado() or not estaSano
   }
 }
 
 object marcela{
   var enfermedad = false
   
-  method irAHavana(){
+  method comerAfuera(){
     enfermedad = true
   }
 
