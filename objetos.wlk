@@ -6,7 +6,7 @@ object tito{
   method comoEstas() = animo
 
   method trabajar(){
-    animo = "cansado
+    animo = "cansado"
   }
 
   method despedir(){
